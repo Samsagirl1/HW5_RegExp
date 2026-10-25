@@ -60,8 +60,7 @@ def rename_files(dir,
     dir: directory with files to rename
     pattern: regular expression used to select files; the matched part 
              of the name is replaced with `new_pattern`
-    new_pattern: the string that replaces the file names
-                 If it is None, then renaming according to the pattern 
+    new_pattern: the string that replaces the file names. If it is None, then renaming according to the pattern 
                  does not occur, but the original `pattern` is required to select files
     sample_names: a dictionary that sets the rules for renaming samples
     to_replace: rename files with deletion of the original (True) or 
